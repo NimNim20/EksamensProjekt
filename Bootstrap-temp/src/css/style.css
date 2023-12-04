@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container{
   font-family: 'Noto Sans', sans-serif;
   /* font-family: 'Open Sans', sans-serif; */
@@ -6,9 +12,16 @@
 .row{
   --bs-gutter-x: 0;
 }
+.bi{
+  margin: 0;
+  padding:0px;
+  height: 40px;
+}
 
-.socials{
-  font-size: 35px;
+.socials a{
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
   color: black;
   text-decoration: none;
   transition: 0.4s;
@@ -17,9 +30,10 @@
 .socials:hover{
   color: rgb(131,58,180);
   transition: 0.4s;
+  
 }
 
-/* .more-button a:hover{
+.more-button a:hover{
   border-bottom: 3px solid #000;
   transition: 0.4s;
-} */
+}

@@ -21,30 +21,32 @@
       <div class="navbar fixed-top">
       <div class="col-1 btn-group dropend">
         <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="bi bi-airplane-engines"></i>
+          <i class="bi bi-list"></i>
         </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item" href="#">Udstillinger</a></li>
+          <li><a class="dropdown-item" href="#">Aktiviteter</a></li>
+          <li><a class="dropdown-item" href="#">Designbutik</a></li>
+          <li><a class="dropdown-item" href="#">Børn & Unge</a></li>
+          <li><a class="dropdown-item" href="#">Priser</a></li>
+          <li><a class="dropdown-item" href="#">Om Trapholt</a></li>
+          <li><a class="dropdown-item" href="#">Café Gustav Lind</a></li>
         </ul>
       </div>
-      <form class="col d-flex" role="search">
+      <form class="col d-flex justify-content-end" role="search">
         <input class="me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="bi bi-search" type="submit"></button>
       </form>
       </div>
-  
-   
-      <!-- Dropdown menu testing -->
     </div>
+    <!-- Dropdown menu testing -->
 
     <img src="../../img/Kubeflex.jpg" class="img-fluid g-0" alt="bootstrap" />    
 
     <!-- First block of informative text -->
     <div class="container border-bottom">
       <div class="row align-items-start py-5">
-        <div class="col-3">
+        <div class="col-4">
           <img src="../../img/Arne Jacobsen forside .jpeg" alt="bootstrap" style="height: 40vh" />
         </div>
 
@@ -68,7 +70,7 @@
           <br />
 
           <p>
-            <a class="link-secondary link-secondary:hover" href="#">Læs mere here!</a>
+            <a href="#" style="text-decoration: none; color: white; background-color: black; border-radius: 12px; padding: 12px 24px;">Læs mere here!</a>
           </p>
         </div>
       </div>
@@ -110,12 +112,12 @@
     <!-- Third block of informative text -->
     <div class="container border-bottom">
       <div class="row align-items-start py-5">
-        <div class="col-3">
+        <div class="col-4">
           <img src="../../img/Arne Jacobsen forside .jpeg" alt="bootstrap" style="height: 40vh" />
         </div>
 
         <div class="col">
-          <h2>Arne Jacobsen</h2>
+          <h2>Børnenes Verden</h2>
           <p>
             Arne Jacobsen var en anerkendt dansk arkitekt og designer, der
             levede fra 1902 til 1971. Han er kendt for sit betydningsfulde
@@ -134,6 +136,7 @@
             æstetik, der har haft en vedvarende indflydelse på moderne
             designverdenen.
           </p>
+          <br />
         </div>
       </div>
     </div>
@@ -145,6 +148,23 @@
       <div class="container border-bottom">
         <div class="row py-5">
           <div class="col-4 d-flex justify-content-end">
+
+            <!-- Newsletter -->
+            <form class="pe-5">
+              <div class="container">
+                <h5>Tilmeld dig vores nyhedsbrev</h5>
+              </div>
+            
+              <div class="container" style="background-color:white">
+                <input type="text" placeholder="Email" name="mail" required>
+              </div>
+            
+              <div class="container pt-2">
+                <input type="submit" value="Tilmeld">
+              </div>
+            </form>
+            <!-- Newsletter -->
+
             <ul class="list-unstyled">
               <li><a class="dropdown-item py-1" href="">Hjem</a></li>
               <li><a class="dropdown-item py-1" href="">Priser</a></li>
@@ -168,15 +188,39 @@
 
           <div class="col-4">
             <h5>Kontakt os</h5>
-         <ul class="d-flex nowrap list-unstyled socials">
-          <li><a href="https://www.instagram.com/tinder/?hl=da"><i class="bi bi-4-square"></i></a></li>
-          <li><a href="#"><i class="bi bi-4-square"></i></a></li>
-          <li><a href="#"><i class="bi bi-4-square"></i></a></li>
-         </ul>
-             </div>    
-                    
+            <ul class="d-flex nowrap list-unstyled">
+              <li class="socials-instagram"><a href="https://www.instagram.com/trapholt/?hl=da"><i class="bi bi-instagram"></i></a></li>
+              <li class="socials-facebook px-4"><a href="https://www.facebook.com/trapholt.dk/?locale=da_DK"><i class="bi bi-facebook"></i></a></li>
+              <li class="socials-linkedin"><a href="https://www.linkedin.com/company/trapholt/?originalSubdomain=dk"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+            <p>
+              kunstmuseum@trapholt.dk <br> <br>
+              +45 1234 5678 <br> <br>
+              Trapholt <br>
+              Æblehaven 23 <br>
+              6000 Kolding 
+            </p>
+          </div>    
             
-        
+          <!-- Trapholt Logo Footer -->
+          <div class="row py-5 justify-content-center align-items-center">
+            <div class="col-10 d-flex justify-content-center">
+              <img class="align-items-center" src="../../img/Logo-black.jpg" alt="bootstrap">
+            </div>
+
+
+          </div>
+          <!-- Trapholt Logo Footer -->
+
+            <!-- Awards -->
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-4">
+                <img class="h-50 w-auto" src="../../img/Kolding-logo.png" alt="bootstrap">
+                <img class="h-50 w-auto mx-4" src="../../img/Travelers-choice.png" alt="bootstrap">
+                <img class="h-50 w-auto" src="../../img/Michelin.png" alt="bootstrap">
+              </div>
+            </div>
+            <!-- Awards -->
 
         </div>
       </div>

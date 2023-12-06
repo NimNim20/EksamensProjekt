@@ -24,10 +24,28 @@ button{
 }
 
 .navbar .btn i.bi.bi-list {
-  color: white;
+  /* color: white; */
   font-size: 32px;
-  font-weight: bold; /* Change this to your desired color value */
 }
+
+.header-image{
+  position: relative;
+  display: block;
+}
+
+.logo{
+  left: 72%;
+  top: 45%;
+  position: absolute;
+  rotate: 90deg;
+  width: 600px;
+  /* margin-top: -25px; */
+  /* margin-left: -25px; */
+}
+/* .navbar .btn i.bi.bi-search {
+  /* color: white; */
+  /* font-size: 32px; */
+/* } */ 
 /* Header elements */
 
 .row{
@@ -37,6 +55,12 @@ button{
   margin: 0;
   padding:0px;
   height: 40px;
+}
+
+.headline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer elements */

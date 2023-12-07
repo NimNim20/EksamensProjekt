@@ -34,7 +34,7 @@ button{
 }
 
 .logo{
-  left: 72%;
+  left: 78%;
   top: 45%;
   position: absolute;
   rotate: 90deg;
@@ -107,3 +107,8 @@ button{
 }
 /* Footer elements */
 
+/* Display scaling */
+@media (max-width: 768px){
+
+}
+/* Display scaling */

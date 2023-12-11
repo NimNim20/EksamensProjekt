@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #ffffff;
+}
+
 .container{
   font-family: 'Noto Sans', sans-serif;
   /* font-family: 'Open Sans', sans-serif; */
@@ -34,11 +38,10 @@ button{
 }
 
 .logo{
-  left: 78%;
-  top: 45%;
+  right: 0%;
+  top: 10%;
   position: absolute;
-  rotate: 90deg;
-  width: 600px;
+  width: 13%;
   /* margin-top: -25px; */
   /* margin-left: -25px; */
 }
@@ -46,11 +49,12 @@ button{
   /* color: white; */
   /* font-size: 32px; */
 /* } */ 
-/* Header elements */
 
+/* Header elements */
 .row{
   --bs-gutter-x: 0;
 }
+
 .bi{
   margin: 0;
   padding:0px;
@@ -108,7 +112,23 @@ button{
 /* Footer elements */
 
 /* Display scaling */
-@media (max-width: 768px){
+@media screen and (max-width: 1199px){
+  body{
+    background-color: #035be9;
+  }
 
+  .rem-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    background-color: aqua;
+  }
+
+  .rem-img{
+    display: none;
+  }
 }
 /* Display scaling */
